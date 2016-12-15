@@ -1,0 +1,434 @@
+BODY { 
+	background: #fff;
+	color: #000000;
+	font: 10pt Arial, sans-serif;
+	padding: 0px;
+	margin: 2px;
+	border-spacing: 0px;
+}
+
+br {
+	padding-top: 0px;
+}
+
+.header {
+	vertical-align: top;
+	padding: 0px;
+	margin: 0px;
+	border-spacing: 0px;
+}
+
+.header tr{
+	padding: 0px;
+	margin: 0px;
+	border-spacing: 0px;
+}
+
+.header tr td {
+	padding: 0px;
+	margin: 0px;
+	border-spacing: 0px;
+}
+
+.logo {
+	margin-left: 2px;
+	margin-top: 2px;
+	margin-bottom: 6px;
+	padding: 0px;
+	border-spacing: 0px;
+	vertical-align: top;
+}
+
+.headerDummy{
+	display: block;
+	width: 11em;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 9px;
+	padding-right: 7px;
+	margin: 0px;
+}
+
+.tabs { /* styles for the tabs section */
+	vertical-align: bottom;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+	border-spacing: 0px;
+}
+
+.globals{
+	vertical-align: top;
+	padding: 0px;
+	padding-left: 10px;
+	margin: 0px;
+}
+
+.menuSection {
+	background: #E8EBF0;
+	padding: 5px;
+	border: 1px solid #ccc;
+	width: 11em;
+}
+
+label.menuSectionDummy {
+	display: block;
+	width: 11em;
+	font-size: 10pt;
+}
+
+.menuHeader{
+	font-weight: bold;
+}
+	        
+.page {
+	background : #fff;
+	border-spacing: 0px;
+	border-top: 2px solid #ADD566;
+	margin : 0px;
+	width: 100%;
+}
+
+formLayout.select {
+	height: 100px;
+	max-width: 150px;
+}
+
+.navigation {
+	padding-right: 20px;
+	font-size: 10pt;
+	border: 0px;
+	background: #fff;
+}
+
+.collapse {
+	font-size: 8pt;
+	border: 0px;
+	text-align: right;
+}
+
+.pageHeader {
+	color: #76B900;
+	font-size: 14pt;
+	padding: 0px;
+	margin: 0px;
+	border-spacing: 0px;
+}
+
+.authForm {
+	border-bottom: 2px solid #ADD566;;
+}
+
+table.pageLayout tr td {
+	vertical-align: top;
+}
+
+table.formLayout {
+	font-size: 10pt;
+}
+
+.buttonSection {
+	border-spacing: 0px;
+}
+
+table.buttonGroup {
+	border-spacing: 0px;
+	padding-left: 0px;
+	padding-right: 2px;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+table.buttonGroup tr {
+	padding: 0px;
+	margin: 0px;
+}
+
+input.extra{
+	background-color: #CCCCFF;
+	padding-left: 5px;
+	padding-right: 5px;	
+	width: 100%;
+}
+
+input.extra[class]{ /* ignored by < IE 7 */
+	background-color: #CCCCFF;
+	min-width: 35px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 100%;
+} 
+
+input.input {
+	max-width: 150px;
+}
+
+input.button{
+	background: #CCCCCC;
+	min-width: 75px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 100%;
+}
+
+input.button[class]{ /* ignored by < IE 7 */
+	background: #CCCCCC;
+	min-width: 35px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 100%;
+} 
+
+.tab { /* styles for an inactive tab */
+	background : #E8EBF0;
+	color : #666;
+	border : 1px solid #ccc;
+	border-bottom : 1px solid #E8EBF0;
+	margin-top : 2px;
+	margin-right : 8px;
+	margin-bottom: 0px;
+	text-decoration : none;
+}
+
+.tabActive { /* styles for an active tab */
+	background : #ADD566;
+	color : #000;
+	border : 1px solid #ccc;
+	border-bottom: 1px solid #ADD566;
+	margin-top : 2px;
+	margin-right : 8px;
+	margin-bottom: 0px;
+	text-decoration : none;
+}
+          	            
+.notOk {
+	color: Red;
+	font-weight:bold;
+}
+
+.ok {
+	color: Green;
+}
+
+.warn {
+	color: Red;
+}
+
+.error {
+	color: Red;
+	font-weight: bold;
+}
+
+table.dataTable { /* styles for the data tables in ..._contents.jsp pages */
+   	border-collapse: collapse;	
+   	font-size: 9pt; /* use smaller font within table */
+ 	text-align: left;
+ 	padding: 0px;
+}
+
+table.dataTable tr th { /* header in data tables */	
+   	border: 1px solid #DDDDDD;
+   	vertical-align: top;
+	padding: 0px;
+}
+
+table.dataTable tr th tbody tr td  { 
+	/* header contains another table with label and sort indicator. No border for those */
+	border-style: none;
+}
+
+input.headerButton {
+	width: 100%;
+	overflow: visible;
+	text-align: left;
+	padding-left: 0px;
+	padding-right: 5px;
+	margin: 0px;
+	background: #FFFFFF;
+	border-style: none;
+	border-width: 0px;
+	font-family: Arial, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+input.headerButton[class] { /* ignored by IE */
+	width: auto;
+	overflow: visible;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+	background: #FFFFFF;
+	border-style: none;
+	font-family: Arial, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration: underline;
+}
+table.dataTable tr td{
+	margin: 0px;
+ 	padding-left: 5px;
+ 	padding-right: 5px;
+ 	padding-top: 3px;
+ 	padding-bottom: 3px;
+ 	border: 1px solid #DDDDDD;
+}
+
+table.dataTable tr td img {
+	vertical-align: bottom;
+	border-style: none;
+}
+
+table.scopeList {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+ 	text-align: left;	
+}
+
+table.scopeList tr {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+table.scopeList tr td{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+span.alertMessage {
+	display: block;
+	width: 350px;
+}
+
+.messages hr {
+	height: 1;
+	color: #AAAAAA;
+	background-color: #AAAAAA;
+}
+
+.errorMessages {
+	color: red;
+	padding: 2px;
+	text-align: left;
+}
+
+.warnMessages {
+	color: red;
+	padding: 2px;
+	text-align: left;
+ }
+
+.infoMessages {
+	padding: 2px;
+	text-align: left;
+}
+
+.scroller {
+	color: black;
+	text-decoration: none;
+}
+
+.scroller img {
+	border-color: #AAAAAA;
+}
+
+table.scroller tr td {
+	vertical-align: middle;
+}
+
+.pager {
+	color: #000000;
+	text-decoration: none;
+	text-align: center;
+}
+
+.pager tr td {
+	vertical-align: bottom;
+}
+
+.scroller input {
+	width: 2em;
+}
+
+table.timeout tbody tr td {
+	vertical-align: middle;
+	padding-left: 3px;
+}
+
+.timeout input {
+	width: 2em;
+	text-align: right;
+}
+
+
+.change_password_table {
+	background-color: white;
+	
+	/* Centres the table below the image*/
+	margin-left: auto;
+	margin-right: auto;
+	align: center;
+
+	/* Pulls it into position over the image */
+	position: relative;
+	top: -300px;
+	right: 0px;
+	
+	border: 1px solid #76B900;
+	padding: 5px;
+
+	width: 300px;		
+	height: 90px;
+}
+
+.change_password_table tr {
+	height: 1.2em;
+	padding:0; margin:0;
+}
+
+.change_password_table td {
+	text-align: left;
+	font-weight: bold;
+	color: black; 
+	font-size: 11px ! important;
+	padding:4px;
+	margin:0;	
+}
+
+.change_password_table_input_label {
+	letter-spacing: 1px;
+	white-space: nowrap;
+}	
+
+.change_password_body form {
+	padding: 0; margin: 0;	
+}
+
+.change_password_body img {
+    padding: 0; margin: 0;
+}
+
+.change_password_buttons_table {
+	/* horizontal align buttons centrally */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.change_password_buttons_table td{
+	/* horizontal align buttons centrally */
+	padding:0px 4px;
+	margin:0;	
+}
+
+.change_password_button {
+	/* ensure minimum size of button */
+	width: 80px;
+}

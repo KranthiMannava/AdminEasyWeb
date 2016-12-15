@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/annogen-0.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/axiom-api-1.2.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/axiom-dom-1.2.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/axiom-impl-1.2.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/axis2-adb-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/axis2-adb-codegen-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/axis2-codegen-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/axis2-jaxws-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/axis2-jaxws-api-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/axis2-kernel-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/axis2-mtompolicy-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/backport-util-concurrent-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/bcprov-jdk15-141.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/commons-codec-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/commons-fileupload-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/commons-httpclient-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/commons-logging-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/deegree2.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/geronimo-stax-api_1.0_spec-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/geswcore.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/geswogc.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/GSS-Core-Lib.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/jaxen.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/jdom.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/jts-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/log4j.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/mail-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/mex-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/neethi-2.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/opensaml-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/rampart-core-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/rampart-policy-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/rampart-trust-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/saxpath.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/serf.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/vecmath.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/woden-api-1.0M8.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/wsdl4j-1.6.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/wss4j-1.5.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/wstx-asl-3.2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/XmlSchema-1.4.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/service_dev/xmlsec-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/activation-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/axis2-ant-plugin-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/axis2-clustering-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/axis2-corba-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/axis2-fastinfoset-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/axis2-java2wsdl-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/axis2-jaxbri-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/axis2-jibx-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/axis2-json-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/axis2-jws-api-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/axis2-metadata-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/axis2-saaj-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/axis2-saaj-api-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/axis2-spring-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/axis2-xmlbeans-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/commons-io-1.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/geronimo-annotation_1.0_spec-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/httpcore-4.0-beta1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/httpcore-nio-4.0-beta1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/jalopy-1.5rc3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/jaxb-api-2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/jaxb-impl-2.1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/jaxb-xjc-2.1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/jettison-1.0-RC2.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/jibx-bind-1.1.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/jibx-run-1.1.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/soapmonitor-1.4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/woden-impl-dom-1.0M8.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/xalan-2.7.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/xercesImpl-2.8.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/xml-apis-1.3.04.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/backup/lib/xml-resolver-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebRoot/WEB-INF/lib/jstl.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebRoot/WEB-INF/lib/standard.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

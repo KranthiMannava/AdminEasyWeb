@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Tab example in ExtJs</title>
+
+<link rel="stylesheet" type="text/css"
+	href="css/ext-theme-classic-all.css" />
+<link rel="stylesheet" type="text/css" href="css/admin.css" />
+<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> -->
+
+<link rel="stylesheet" type="text/css" href="css/example.css" />
+<script type="text/javascript" src="js/ext-all.js"></script>
+<script type="text/javascript" src="js/ext-charts.js"></script>
+<!-- <script src="js/jquery-2.2.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script> -->
+<script type="text/javascript" src="ExportableGrid"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+
+<script type="text/javascript" src="js/superfiletab.js"></script>
+
+<script type="text/javascript" src="js/tabletabfile.js"></script>
+<script type="text/javascript" src="js/servertabfile.js"></script>
+<script type="text/javascript" src="js/designtab.js"></script>
+
+<script type="text/javascript"
+	src="https://stuk.github.io/jszip/dist/jszip.js"></script>
+<script type="text/javascript"
+	src="https://stuk.github.io/jszip/vendor/FileSaver.js"></script>
+
+
+<script type="text/javascript" src="js/FileSaver"></script>
+<script type="text/javascript" src="js/JSZip"></script>
+
+
+<style type="text/css">
+.x-btn-inner-default-small {
+	width: 80px;
+	background: #99bce8;
+	color: #FFF;
+	display: inline-block !important;
+}
+
+#serverButtons {
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+
+.containerDiv {
+	text-align: center;
+	display: block;
+	top: 20%;
+	left: 25%;
+	position: absolute;
+}
+
+.x-panel-body-default {
+	border: none !important;
+}
+
+::-webkit-scrollbar {
+	-webkit-appearance: none;
+	width: 5px;
+	height: 7px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: rgba(113, 112, 107, 0.1);
+	-webkit-border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: rgba(0, 0, 0, .2);
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: rgba(0, 0, 0, .2);
+	-webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical:hover,::-webkit-scrollbar-thumb:horizontal:hover
+	{
+	background-color: rgba(0, 0, 0, .4);
+}
+
+#superAnalysisTab .x-form-item-label-inner,
+#tableAnalysisFromPanel .x-form-item-label-inner{
+	 width:110px!important; 
+}
+
+</style>
+<script type="text/javascript">
+    if (document.addEventListener) { // IE >= 9; other browsers
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+        }, false);
+    } else { // IE < 9
+        document.attachEvent('oncontextmenu', function() {
+            window.event.returnValue = false;
+        });
+    }
+</script>
+</head>
+<body>
+	<div class="containerDiv">
+
+		<div id="designTab">
+			<div id="selecttab1"></div>
+			<div id="formtab1"></div>
+			<div id="gridtab1"></div>
+			<div id="griddatacall"></div>
+
+		</div>
+
+		<div id="superAnalysisTab" class="x-hidden">
+			<div id="superDataSetForm"></div>
+			<div id="superFormGrid"></div>
+		</div>
+
+		<div id="tableAnalyisTab" class="x-hidden">
+			<div id="tableAnalysisFromPanel"></div>
+			<div id="tableGridForm"></div>
+		</div>
+
+		<div id="serverAnalysisTab" class="x-hidden">
+			<div id="serverGrid"></div>
+			<div id="serverButtons"></div>
+		</div>
+
+	</div>
+</body>
+</html>

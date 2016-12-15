@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>AdminEasyWeb</display-name>
+  <welcome-file-list>
+    <welcome-file>admin.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>AdminDesignDataServlet</servlet-name>
+    <servlet-class>com.cyient.designAnalysis.AdminDesignDataServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminDesignDetailsServlet</servlet-name>
+    <servlet-class>com.cyient.designAnalysis.AdminDesignDetailsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminDesignAlternativeDetailsServlet</servlet-name>
+    <servlet-class>com.cyient.designAnalysis.AdminDesignAlternativeDetailsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>AdminTableAnalysisDatasetServlet</display-name>
+    <servlet-name>AdminTableAnalysisDatasetServlet</servlet-name>
+    <servlet-class>com.cyient.tableAnalysis.AdminTableAnalysisDatasetServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminDesignDataServlet</servlet-name>
+    <url-pattern>/AdminDesignDataServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminDesignDetailsServlet</servlet-name>
+    <url-pattern>/AdminDesignDetailsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminDesignAlternativeDetailsServlet</servlet-name>
+    <url-pattern>/AdminDesignAlternativeDetailsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminTableAnalysisDatasetServlet</servlet-name>
+    <url-pattern>/AdminTableAnalysisDatasetServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <display-name>AdminTableOfSelectedDatasetServlet</display-name>
+    <servlet-name>AdminTableOfSelectedDatasetServlet</servlet-name>
+    <servlet-class>com.cyient.tableAnalysis.AdminTableOfSelectedDatasetServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminTableOfSelectedDatasetServlet</servlet-name>
+    <url-pattern>/AdminTableOfSelectedDatasetServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AdminSuperFileAnalysisDatasetServlet</display-name>
+    <servlet-name>AdminSuperFileAnalysisDatasetServlet</servlet-name>
+    <servlet-class>com.cyient.superFileAnalysis.AdminSuperFileAnalysisDatasetServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminSuperFileAnalysisDatasetServlet</servlet-name>
+    <url-pattern>/AdminSuperFileAnalysisDatasetServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <display-name>AdminSuperFileGetFilePathServlet</display-name>
+    <servlet-name>AdminSuperFileGetFilePathServlet</servlet-name>
+    <servlet-class>com.cyient.superFileAnalysis.AdminSuperFileGetFilePathServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminSuperFileGetAllFilesDetailsServlet</servlet-name>
+    <servlet-class>com.cyient.superFileAnalysis.AdminSuperFileGetAllFilesDetailsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminSuperFileGetFilePathServlet</servlet-name>
+    <url-pattern>/AdminSuperFileGetFilePathServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminSuperFileGetAllFilesDetailsServlet</servlet-name>
+    <url-pattern>/AdminSuperFileGetAllFilesDetailsServlet</url-pattern>
+  </servlet-mapping>
+  <context-param>
+    <param-name>log4j-config-location</param-name>
+    <param-value>/WEB-INF/log4j.properties</param-value>
+  </context-param>
+  <listener>
+    <listener-class>com.cyient.designAnalysis.ContextListener</listener-class>
+  </listener>
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>gss_native</web-resource-name>
+      <description>Web application</description>
+      <url-pattern>/admin.html</url-pattern>
+      <http-method>POST</http-method>
+      <http-method>GET</http-method>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>Super Users</role-name>
+    </auth-constraint>
+  </security-constraint>
+  <login-config>
+    <auth-method>FORM</auth-method>
+    <realm-name>GSS NATIVE</realm-name>
+    <form-login-config>
+      <form-login-page>/login.jsp</form-login-page>
+      <form-error-page>/login_failed.jsp</form-error-page>
+    </form-login-config>
+  </login-config>
+  <security-role>
+    <role-name>Super Users</role-name>
+  </security-role>
+  <servlet>
+    <description></description>
+    <display-name>AdminDesignDeleteSelectedDesignServlet</display-name>
+    <servlet-name>AdminDesignDeleteSelectedDesignServlet</servlet-name>
+    <servlet-class>com.cyient.designAnalysis.AdminDesignDeleteSelectedDesignServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminDesignDeleteSelectedDesignServlet</servlet-name>
+    <url-pattern>/AdminDesignDeleteSelectedDesignServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
